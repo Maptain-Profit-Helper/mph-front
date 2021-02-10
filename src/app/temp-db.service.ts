@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Mouse } from './models/mouse';
+import { MouseDB } from './models/mouse-db';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +8,7 @@ export class TempDBService {
 
   constructor() { }
 
-  TEMP_DB: Mouse[] = [
+  TEMP_DB: MouseDB[] = [
     {name: 'Snow Slinger', price: 5},
     {name: 'Snow Slinger', price: 10},
     {name: 'Snow Slinger', price: 5},
