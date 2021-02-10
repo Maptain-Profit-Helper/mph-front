@@ -1,0 +1,14 @@
+p { 
+    font-size: 20px;
+}
+
+textarea {
+    background: #3A434C;
+    color: #E9F0F6;
+    font-size: 16px;
+}
+
+textarea:active, textarea:focus{
+    background: #515A61;
+    color: #DEE5EB;
+}

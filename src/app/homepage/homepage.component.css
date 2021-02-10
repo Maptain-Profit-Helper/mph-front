@@ -1,0 +1,10 @@
+.mat-grid-tile .mat-grid-tile-header {
+    background-color: #3A434C;
+}
+
+.mat-grid-tile-header span { 
+    color: #D4D9DF; 
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}

@@ -17,6 +17,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTableModule } from '@angular/material/table'
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { MatTableModule } from '@angular/material/table'
     MatGridListModule,
     MatSliderModule,
     MatTableModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
