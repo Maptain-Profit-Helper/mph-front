@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "mph-front"
+  "defaultProject": "mph-front",
+  "cli": {
+    "analytics": false
+  }
 }
