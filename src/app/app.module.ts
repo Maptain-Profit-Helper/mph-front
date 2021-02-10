@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TextFieldModule } from '@angular/cdk/text-field';
 
 // materials
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTableModule } from '@angular/material/table'
@@ -34,6 +35,7 @@ import { MatTableModule } from '@angular/material/table'
     TextFieldModule,
 
     // Materials
+    MatFormFieldModule,
     MatGridListModule,
     MatSliderModule,
     MatTableModule,
