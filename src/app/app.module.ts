@@ -10,10 +10,12 @@ import { ProfitsComponent } from './profits/profits.component';
 import { TableComponent } from './table/table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatGridListModule } from '@angular/material/grid-list'
-import { MatTableModule } from '@angular/material/table'
-import { MatSliderModule } from '@angular/material/slider';
 import { TextFieldModule } from '@angular/cdk/text-field';
+
+// materials
+import { MatGridListModule } from '@angular/material/grid-list'
+import { MatSliderModule } from '@angular/material/slider';
+import { MatTableModule } from '@angular/material/table'
 
 @NgModule({
   declarations: [
@@ -28,10 +30,13 @@ import { TextFieldModule } from '@angular/cdk/text-field';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule,
-    MatTableModule,
-    MatSliderModule,
+
     TextFieldModule,
+
+    // Materials
+    MatGridListModule,
+    MatSliderModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
