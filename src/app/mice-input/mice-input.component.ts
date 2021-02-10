@@ -17,8 +17,6 @@ export class MiceInputComponent implements OnInit {
 
   public sendMice(){
 
-    console.log("Hi")
-
     this.MouseService.getMouseList("Snow Slinger");
 
   }

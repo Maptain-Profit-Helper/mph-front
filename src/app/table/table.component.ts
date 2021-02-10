@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import { MouseDB } from '../models/mouse-db';
+import { TempDBService } from '../temp-db.service';
 
 @Component({
   selector: 'app-table',
@@ -16,7 +17,11 @@ import { MouseDB } from '../models/mouse-db';
 })
 export class TableComponent implements OnInit {
 
- 
+  constructor(private TempDBService:TempDBService) { }
+
+  ngOnInit(): void {
+  }
+
   MOUSE_DATA: MouseDB[] = [
     {name: 'Snow Slinger', price: 5},
     {name: 'Technic Knight', price: 5},
@@ -27,9 +32,5 @@ export class TableComponent implements OnInit {
 
   dataSource = this.MOUSE_DATA;
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
