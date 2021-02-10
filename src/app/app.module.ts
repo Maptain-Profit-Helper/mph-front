@@ -9,9 +9,11 @@ import { MiceInputComponent } from './mice-input/mice-input.component';
 import { ProfitsComponent } from './profits/profits.component';
 import { TableComponent } from './table/table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatTableModule } from '@angular/material/table'
 import { MatSliderModule } from '@angular/material/slider';
+import { TextFieldModule } from '@angular/cdk/text-field';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { MatSliderModule } from '@angular/material/slider';
     BrowserAnimationsModule,
     MatGridListModule,
     MatTableModule,
-    MatSliderModule
+    MatSliderModule,
+    TextFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
